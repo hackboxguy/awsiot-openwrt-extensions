@@ -1,0 +1,13 @@
+
+config info 'Settings'
+        option KEY_BTN_ON_topic ''
+	option KEY_BTN_ON_message ''
+        option KEY_BTN_OFF_topic ''
+	option KEY_BTN_OFF_message ''
+        option KEY_MUTE_topic ''
+	option KEY_MUTE_message ''
+        option KEY_VOLUMEUP_topic ''
+	option KEY_VOLUMEUP_message ''
+        option KEY_VOLUMEDOWN_topic ''
+	option KEY_VOLUMEDOWN_message ''
+
