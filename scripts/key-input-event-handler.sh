@@ -1,7 +1,7 @@
 #!/bin/sh
 #this script is used for publishing json data on a configured  topic through linux-domain-socket of aws-iot-pubsub-agent
 
-PUBSUBCLIENTi=aws-iot-pubsub-client
+PUBSUBCLIENT=aws-iot-pubsub-client
 USAGE="usage: $0 <KEY_CODE> [KEY_BTN_ON/KEY_BTN_OFF/KEY_MUTE/KEY_VOLUMEUP/KEY_VOLUMEDOWN/KEY_PREVIOUSSONG/KEY_NEXTSONG/KEY_PLAYPAUSE]"
 
 if [ -z $1 ]; then

@@ -1,0 +1,9 @@
+#!/bin/sh
+#this script is used for publishing(when onboard slider switch is moved to on or off position)
+#json data on a configured  topic through linux-domain-socket of aws-iot-pubsub-agent
+KEY_INPUT_HANDLER=key-input-event-handler.sh
+if [ "$ACTION" == "pressed" ]; then
+	$KEY_INPUT_HANDLER "KEY_BTN_ON"
+else
+	$KEY_INPUT_HANDLER "KEY_BTN_OFF"
+fi
