@@ -8,5 +8,7 @@ f = d:option(Value, "count", "Publish Count"); f.optional=false; f.rmempty = fal
 h = d:option(Value, "message", "Publish Message"); h.optional=false; h.rmempty = false;
 i = d:option(Value, "subtopic", "Subscribe Topic"); i.optional=false; i.rmempty = true;
 j = d:option(Value, "subtopichandler", "Subscribe Topic Handler"); j.optional=false; j.rmempty = true;
+k = d:option(Value, "subthreshold", "Subscribe Threshold"); k.optional=false; k.rmempty = true;
+l = d:option(Value, "subhysteresis", "Subscribe Hysteresis"); l.optional=false; l.rmempty = true;
 g = d:option(Value, "verbosity", "Server Logging Verbosity"); g.optional=false; g.rmempty = false;
 return m

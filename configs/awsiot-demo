@@ -9,4 +9,6 @@ config info 'Settings'
 	option message '{ \"message\": \"Hello world!\" }'
 	option subtopic 'test/topic_led'
 	option subtopichandler '/usr/sbin/led-power.sh'
+	option subthreshold '45'
+	option subhysteresis '5'
 
